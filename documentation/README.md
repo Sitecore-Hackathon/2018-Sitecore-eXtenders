@@ -21,7 +21,7 @@ Currently the module will only support following supports following coverage of 
 
 - [x] Get Product Images from Instagram Feeds
 - [] Filter Product Images by product tag
-- [] Gives discount, if related product has been featured on your instagram account
+- [] Gives discount, if related product has been featured on your instagram account (#SitecoreCommunityInspired)
 
 Add parameters to component to specify : 
 - [] Get user timeline feed
@@ -48,46 +48,27 @@ To install this module:
 3. Navigate to Control Panel 
 4. Click on Administration/install a package
 5. Upload the package (TODO Add link here)  
-6. Click Next Next Next >> Finish
+6. Click Accept >> Next Next >> Finish
 
 ## Configuration
 
-How do you configure your module once it is installed? Are there items that need to be updated with settings, or maybe config files need to have keys updated?
-
-Remember you are using Markdown, you can provide code samples too:
-
-```xml
-<?xml version="1.0"?>
-<!--
-  Purpose: Configuration settings for my hackathon module
--->
-<configuration xmlns:patch="http://www.sitecore.net/xmlconfig/">
-  <sitecore>
-    <settings>
-      <setting name="MyModule.Setting" value="Hackathon" />
-    </settings>
-  </sitecore>
-</configuration>
-```
+As it is in an early stage proof of concept this module does not need any custom configuration.
 
 ## Usage
 
-Provide documentation  about your module, how do the users use your module, where are things located, what do icns mean, are there any secret shortcuts etc.
+1. Open Experience Editor
+2. Go to your page
+3. Make sure the SXA Drag & Drop Editing Mode is enabled
+4. Open the SXA Toolbox 
+5. Expand Commerce Instagram group
+6. Drag and drop Instagram Product Images into your desired section
+ 
 
-Please include screenshots where necessary. You can add images to the `./images` folder and then link to them from your documentation:
+![Example](images/hackathon-fun-7.png?raw=true "Instagram Product Images Overview")
 
-![Hackathon Logo](images/hackathon.png?raw=true "Hackathon Logo")
-
-You can embed images of different formats too:
-
-![Deal With It](images/deal-with-it.gif?raw=true "Deal With It")
-
-And you can embed external images too:
-
-![Random](https://placeimg.com/480/240/any "Random")
+If you want a demo check the video. 
 
 ## Video
 
-Direct Link [direct link](https://www.youtube.com/watch?v=EpNhxW4pNKk)
+Direct Link [direct link](https://youtu.be/ahPr9ZvvNHc)
 
-[![Sitecore Hackathon Video Embedding Alt Text](https://img.youtube.com/vi/EpNhxW4pNKk/0.jpg)](https://www.youtube.com/watch?v=EpNhxW4pNKk)
