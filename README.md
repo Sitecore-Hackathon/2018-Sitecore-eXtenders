@@ -1,38 +1,77 @@
 ![Hackathon Logo](documentation/images/hackathon.png?raw=true "Hackathon Logo")
 
-# Submission Boilerplate
+# Documentation
 
-Welcome to Sitecore Hackathon 2018.
+## Sitecore Hackathon 2018 - Commerce Instagram
 
-The Hackathon site can be found at http://www.sitecorehackathon.org/sitecore-hackathon-2018/
+## Summary
 
-This purpose of repository is to provide a sample which shows how to structure the Hackathon submissions. We highly recommend
+**Category:** Sitecore Commerce & SXA
+
+**Team:** Sitecore eXtender
+
+**Author:** Mohamed Krimi
+
+**Plugin Pupose:** 
+Commerce Instagram is a Sitecore Commerce SXA Feature that let you enhance your product page experience with UGC (User Genereted Content) from instagram account/feed/tag. 
+This module will connect your product page to an Instagram Account/Feed/Tag and grab additional images for your product. 
+This module will help your saving you time editing and processing images of all your products and help you increase visibility on instagram and selling.  
+
+## Features & Road Map
+
+Currently the module will only support following supports following coverage of the following Instagram APIs: 
+
+- [x] Get Product Images from Instagram Feeds
+- [] Filter Product Images by product tag
+- [] Gives discount, if related product has been featured on your instagram account (#SitecoreCommunityInspired)
+
+Add parameters to component to specify : 
+- [] Get user timeline feed
+- [] Get all user media by username
+- [] Get media by its id
+- [] Get user info by its user name
+- [] Get current user info
+- [] Get tag feed by tag value
+- [] Get current user media
+ 
+## Pre-requisites
+
+Before installing this module you need : 
+
+1. To install Sitecore XP 9.0 update 1
+2. To Deploy Sitecore Commerce 9.0 initial release (With default Storefront)
+
+## Installation
+
+To install this module:
+
+1. Open your Sitecore <your-website>/sitecore
+2. Login as an Administrator
+3. Navigate to Control Panel 
+4. Click on Administration/install a package
+5. Upload the package (TODO Add link here)  
+6. Click Accept >> Next Next >> Finish
+
+## Configuration
+
+As it is in an early stage proof of concept this module does not need any custom configuration.
+
+## Usage
+
+1. Open Experience Editor
+2. Go to your page
+3. Make sure the SXA Drag & Drop Editing Mode is enabled
+4. Open the SXA Toolbox 
+5. Expand Commerce Instagram group
+6. Drag and drop Instagram Product Images into your desired section
+ 
+
+![Example](documentation/images/hackathon-fun-7.png?raw=true "Instagram Product Images Overview")
+
+If you want a demo check the video. 
+
+## Video
+
+Direct Link [direct link](https://youtu.be/ahPr9ZvvNHc)
 
 
-## Entry Submission Requirements 
-
-All teams are required to submit the following as part of their entry submission on or before the end of the Hackathon on **Saturday March 3rd 2018 at 8PM EST**. The modules should be based on [Sitecore 9.0 rev. 171219 (Update-1)](https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/90/Sitecore_Experience_Platform_90_Update1.aspx).
-
-**Failure to meet any of the requirements will result in automatic disqualification.** Please reach out to any of the organisers or judges if you require any clarification.
-
-- Sitecore 9.0 Update 1 Module (Module install package)
-   - An installation Sitecore Package (`.zip` or `.update`)
-
-- Module code in a public Git source repository. We will be judging (amongst other things):
-  - Cleanliness of code
-  - Commenting where necessary
-  - Code Structure
-  - Standard coding standards & naming conventions
-
-- Precise and Clear Installation Instructions document (1 – 2 pages)
-- Module usage documentation on [Readme.md](documentation) file on the Git Repository (2 – 5 pages)
-  - Module Purpose
-  - Module Sitecore Hackathon Category
-  - How does the end user use the Module?
-  - Screenshots, etc.
-
-- Create a 2 – 10 minutes video explaining the module’s functionality (A link to youtube video)
-
-  - What problem was solved
-  - How did you solve it
-  - What is the end result
